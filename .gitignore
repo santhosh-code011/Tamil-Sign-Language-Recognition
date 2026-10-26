@@ -1,0 +1,28 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environment
+.env
+.venv
+env/
+venv/
+
+# Dataset and temporary images
+data/
+temp/
+*.png
+*.jpg
+
+# Checkpoints (recreated via train.py)
+*.pt
+*.pth
+
+# IDE & OS
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+.DS_Store
